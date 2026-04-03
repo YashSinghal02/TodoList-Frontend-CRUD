@@ -69,9 +69,9 @@ function LoginForm() {
           <p className="font-normal">
             Create an account{" "}
             <Link to="/">
-              <span className="text-blue-600 font-bold cursor-pointer">
+              <strong className="font-semibold cursor-pointer" style={{color:"rgb(139 232 223)"}}>
                 SignUp
-              </span>
+              </strong>
             </Link>
           </p>
         </div>

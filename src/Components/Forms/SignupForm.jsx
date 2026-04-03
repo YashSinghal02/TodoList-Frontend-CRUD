@@ -92,7 +92,7 @@ function SignupForm() {
 <button type="submit">Submit</button>
         {/* <Link to="/login"><button type="submit">Submit</button></Link> */}
         <div className="text-center mt-3">
-<p className="font-normal">Login in an account <Link to="/login"><span className="text-blue-600 font-bold cursor-pointer">Login</span></Link></p>
+<p className="font-normal">Login in an account <Link to="/login"><strong className=" font-semibold cursor-pointer" style={{color:"rgb(139 232 223)"}}>Login</strong></Link></p>
     </div>
       </form>
     </div>
